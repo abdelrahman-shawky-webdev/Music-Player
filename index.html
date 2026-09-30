@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Glassmorphism Music Player</title>
+</head>
+<body>
+    <div class="player-card">
+        <div class="disk-container">
+            <div class="disk">
+                <div class="small-circle"></div>
+            </div>
+        </div>
+        <div class="song-info">
+            <h2 class="song-titel">Into It 
+                <label class="star-btn">
+                    <input type="checkbox" id="fav-checkbox">
+                    <i class="fa-regular fa-star"></i>
+                </label>
+            </h2>
+            <p class="artist-name">Chase Atlantic</p>
+        </div>
+        <div class="progress-container">
+            <input type="range" value="40" min="0" max="100">
+            <div class="time-stamps">
+                <span>2:25</span>
+                <span>3:14</span>
+            </div>
+        </div>
+        <div class="controls">
+            <button class="btn btn-sm"><i class="fa-solid fa-backward-step"></i></button>
+            <button class="btn btn-play"><i class="fa-solid fa-pause"></i></button>
+            <button class="btn btn-sm"><i class="fa-solid fa-forward-step"></i></button>
+        </div>
+    </div>
+</body>
+</html>
